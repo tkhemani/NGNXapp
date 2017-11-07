@@ -28,6 +28,12 @@
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
       }
+    },
+    {
+      "name": "mylib",
+      "root": "libs\\mylib\\src",
+      "test": "../../../test.js",
+      "appRoot": ""
     }
   ],
   "e2e": {
